@@ -40,7 +40,7 @@ To run the bot, you must generate a **session ID**.
 
 📌 Steps:
 1. Open the website  
-2. Scan the QR code with WhatsApp  
+2. get Pair code with WhatsApp  
 3. Copy the generated **session ID**
 
 ---
@@ -50,10 +50,10 @@ To run the bot, you must generate a **session ID**.
 Open **`config.js`** and add your details:
 
 ```js
-global.session_id = "DanuZz~qUdwWB4B#CtSDbc_ow4lIhpEc3bTIS2XZ6soMX2MXVzyo84iAQhI" // session id
-global.prefix = ',' // bot prefix
-global.owner = ["94766911711"] // Owner number
-global.bot = "94766911711" // Bot number
+global.session_id = "DanuZz~XxxxxxXXxxXXXxX" // session id
+global.prefix = '.' // bot prefix
+global.owner = ["9476XXX"] // Owner number
+global.bot = "9476XXX" // Bot number
 global.namabot = "Base-Dxz" // Bot name
 global.namaown = "DanuZz" // Bot owner
 ````
@@ -83,7 +83,7 @@ Make it stylish, branded, or minimal — your choice 💫
 ## ▶️ Installation
 
 ```bash
-git clone https://github.com/your-repo-link
+git clone https://github.com/dnuzi/wa-song-bot
 cd your-repo
 npm install
 node index.js

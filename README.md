@@ -36,7 +36,7 @@ Built with ❤️ by <b>@DanuZz</b>
 To run the bot, you must generate a **session ID**.
 
 🌐 Use this website to get your session ID:  
-👉 **https://dxz-session.onrender.com/**
+👉 **https://dxz-session.up.railway.app/**
 
 📌 Steps:
 1. Open the website  

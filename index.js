@@ -110,39 +110,6 @@ require("./wa")(Dxz, m, chatUpdate, store)
 console.log(err)
 }
 })
-
-Dxz.sendContact = async (jid, kon, desk = "Developer Bot", quoted = '', opts = {}) => {
-let list = []
-for (let i of kon) {
-list.push({
-displayName: namaown,
-  vcard: 'BEGIN:VCARD\n' +
-    'VERSION:3.0\n' +
-    `N:;${namaown};;;\n` +
-    `FN:${namaown}\n` +
-    'ORG:null\n' +
-    'TITLE:\n' +
-    `item1.TEL;waid=${i}:${i}\n` +
-    'item1.X-ABLabel:Ponsel\n' +
-    `X-WA-BIZ-DESCRIPTION:${desk}\n` +
-    `X-WA-BIZ-NAME:${namaown}\n` +
-    'END:VCARD'
-})
-}
-Dxz.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
-}
-    
-Dxz.ev.on('call', async (user) => {
-if (!global.anticall) return
-for (let ff of user) {
-if (ff.isGroup == false) {
-if (ff.status == "offer") {
-let sendcall = await Dxz.sendMessage(ff.from, {text: `@${ff.from.split("@")[0]} Sorry, I’m going to block you because the bot owner has enabled the *Anticall* feature.\nIf it was an accident, please contact the owner immediately to lift this block.`, contextInfo: {mentionedJid: [ff.from], externalAdReply: {showAdAttribution: true, thumbnail: fs.readFileSync("./media/warning.jpg"), title: "｢ CALL DETECTED ｣ ❤️‍🩹", previewType: "PHOTO"}}}, {quoted: null})
-Dxz.sendContact(ff.from, [owner], "Developer WhatsApp Bot", sendcall)
-await sleep(10000)
-await Dxz.updateBlockStatus(ff.from, "block")
-}}
-}})
     
 Dxz.decodeJid = (jid) => {
 if (!jid) return jid

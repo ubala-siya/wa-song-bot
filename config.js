@@ -7,10 +7,10 @@ Site: https://www.movanest.xyz
 
 //~~~~~Setting Global~~~~~//
 
-global.session_id = "DanuZz~XxxxxxXxXXxXxXXX" //session id 
+global.session_id = "DanuZz~eZtmFJAD#y-PlAVU5T3oRTIGCXtMM5NhxHyJLpvLhtJ4uA6Uwf1c" //session id 
 global.prefix = '.' // bot prefix
-global.owner = ["9476xxxxxx"] // Owner number
-global.bot = "9476xxxxxxxx" // Bot number
+global.owner = ["94766911711"] // Owner number
+global.bot = "94766911711" // Bot number
 global.namabot = "Base-Dxz" // Bot name
 global.namaown = "DanuZz" // Bot owner
 

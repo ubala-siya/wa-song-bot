@@ -7,7 +7,7 @@ Site: https://www.movanest.xyz
 
 //~~~~~Setting Global~~~~~//
 
-global.session_id = "DanuXxxii=eZtmFJAD#y-PlAVU5T3oRTIGCXtMM5NhxHyJLpvLhtJ4uA6Uwf1c" //session id 
+global.session_id = "DanuXxxii=6E0BiRyJ#VCKZ2pf7UPGaZw5kPjKsPk16IIcJ9Oo_B3P0Uj2_tnY" //session id 
 global.prefix = '.' // bot prefix
 global.owner = ["94766911711"] // Owner number
 global.bot = "94766911711" // Bot number

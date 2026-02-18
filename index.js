@@ -1,4 +1,3 @@
-@@ -1,409 +1 @@
 /*
 Base Whatsapp Bot
 By DanuZz
